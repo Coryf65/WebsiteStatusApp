@@ -47,7 +47,11 @@ sc start WebsiteStatusCory
 
 1. Using Powershell as a Admin
 
-- Run the delete in powershell
+- Stop the Service
+```powershell
+sc stop WebsiteStatusCory
+```
+
 ```powershell
 sc delete WebsiteStatusCory
 ```

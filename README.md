@@ -41,7 +41,7 @@ Build a .NET Worker Service, checks my website status
 ```powershell
 sc start WebsiteStatusCory
 ```
-> Using the Name used to create it
+>> Using the Name used to create it
 
 ## How to Uninstall Service
 
@@ -56,4 +56,4 @@ sc stop WebsiteStatusCory
 sc delete WebsiteStatusCory
 ```
 
-> if an error occurrs on delete, you may need to stop the service first.
+>> if an error occurrs on delete, you may need to stop the service first.

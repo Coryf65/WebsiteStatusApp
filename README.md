@@ -49,3 +49,4 @@ Build a .NET Worker Service, checks my website status
   sc delete WebsiteStatusCory
   ```
 
+> if an error occurrs on delete, you may need to stop the service first.

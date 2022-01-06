@@ -50,7 +50,7 @@ namespace WebsiteStatus
 
                 if (result.IsSuccessStatusCode)
                 {
-                    // 
+                    // website is up and running
                     _logger.LogInformation($"The website {_url} is up, with a status of {result.StatusCode}");
                 }
                 else

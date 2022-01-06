@@ -18,5 +18,21 @@ Build a .NET Worker Service, checks my website status
 
 ## How to Install Worker Service
 
+1. Use Powershell and SC (Service Control Manager)
+
+  - Run Powershell as an Admin
+
+  - Example
+  ```powershell
+  sc create {NAME} binpath="{PATH TO EXE}" start= auto
+  ```
+  
+  - My command
+  ```powershell
+  sc create WebsiteStatusCory binpath="C:\Users\Cory\Documents\_Code\WebsiteStatusApp\WebsiteStatus\bin\Release\WebsiteStatus.exe" start= auto
+  ```
+  
+  > Will output a message service started successfully
+
 ## How to Uninstall Service
 

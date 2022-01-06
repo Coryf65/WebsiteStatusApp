@@ -1,6 +1,8 @@
 # WebsiteStatusApp
 Build a .NET Worker Service, checks my website status
 
+- Serilog [Docs](https://serilog.net/)
+
 # Website Status Checking Service
 
 - A worker service runs all the time with no input.

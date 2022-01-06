@@ -31,22 +31,25 @@ Build a .NET Worker Service, checks my website status
   ```powershell
   sc create WebsiteStatusCory binpath="C:\Users\Cory\Documents\_Code\WebsiteStatusApp\WebsiteStatus\bin\Release\WebsiteStatus.exe" start= auto
   ```
-  
-  > Will output a message service started successfully
 
-  - Start it now
-  ```powershell
-  sc start WebsiteStatusCory
-  ```
-  > Using the Name used to create it
+    > Will output a message service created successfully
+  
+## How to Start the Service
+
+1. Open Powershell as an Admin
+
+```powershell
+sc start WebsiteStatusCory
+```
+> Using the Name used to create it
 
 ## How to Uninstall Service
 
 1. Using Powershell as a Admin
 
-  - Run the delete in powershell
-  ```powershell
-  sc delete WebsiteStatusCory
-  ```
+- Run the delete in powershell
+```powershell
+sc delete WebsiteStatusCory
+```
 
 > if an error occurrs on delete, you may need to stop the service first.

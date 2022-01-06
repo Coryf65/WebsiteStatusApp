@@ -34,5 +34,18 @@ Build a .NET Worker Service, checks my website status
   
   > Will output a message service started successfully
 
+  - Start it now
+  ```powershell
+  sc start WebsiteStatusCory
+  ```
+  > Using the Name used to create it
+
 ## How to Uninstall Service
+
+1. Using Powershell as a Admin
+
+  - Run the delete in powershell
+  ```powershell
+  sc delete WebsiteStatusCory
+  ```
 
